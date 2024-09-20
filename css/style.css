@@ -45,8 +45,8 @@ header{
   padding-left: auto;
 }
 
-/* 1st SECTION FLEX */
-.section-1, .section-2{
+/* SECTION FLEX & RULES*/
+section{
   padding: 20px 0;
   display: flex;
   align-items: center;
@@ -87,10 +87,29 @@ header{
   background-color: rgb(219, 13, 13);
   border: 1px solid black;
 }
-
 .debug .layout-2 .blue{
   background-color: blue;
   flex-grow: 2;
+}
+.debug .pink{
+  background-color: pink;
+  flex-grow: 1;
+}
+
+.debug.section-3{
+  background-color: lightgrey;
+}
+
+.debug .layout-3{
+  height: 250px;
+  width: 650px;
+  background-color: rgb(219, 13, 13);
+  border: 1px solid black;
+}
+.debug .layout-3 .blue{
+  background-color: blue;
+  flex-grow: 2;
+  order: -1;
 }
 .debug .pink{
   background-color: pink;
