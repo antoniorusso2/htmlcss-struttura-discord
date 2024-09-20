@@ -16,9 +16,7 @@ ul, li{
 }
 
 /* SECTIONS BGs AND PROPORTIONS */
-.section-1{
-  background-color: blue;
-}
+
 
 
 /* NAV HEADER */
@@ -62,6 +60,11 @@ section{
 }
 
 /* DEBUG RULES */
+
+.section-1.debug{
+  background-color: blue;
+}
+
 .debug .logo, .debug .login{
   border: 1px dashed black ;
   flex-grow: 1;
@@ -96,7 +99,7 @@ section{
   flex-grow: 1;
 }
 
-.debug.section-3{
+.debug.section-3, .debug.section-5{
   background-color: lightgrey;
 }
 
@@ -109,9 +112,14 @@ section{
 .debug .layout-3 .blue{
   background-color: blue;
   flex-grow: 2;
-  order: -1;
 }
-.debug .pink{
-  background-color: pink;
+.debug .layout-5{
+  height: 500px;
+  width: 650px;
+  border: 1px solid black;
+}
+
+.debug .green{
+  background-color: green;
   flex-grow: 1;
 }
