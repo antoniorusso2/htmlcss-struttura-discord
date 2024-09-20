@@ -10,6 +10,17 @@ ul, li{
   list-style: none;
 }
 
+/* CONTAINER CENTERING */
+.container{
+  margin: 0 auto;
+}
+
+/* SECTIONS BGs AND PROPORTIONS */
+.section-1{
+  background-color: blue;
+}
+
+
 /* NAV HEADER */
 
 header{
@@ -17,6 +28,7 @@ header{
   background-color: rgba(8, 184, 228, 0.253);
 }
 
+/* NAV FLEXBOX */
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -29,6 +41,13 @@ header{
   gap: 10px;
 }
 
+/* 1st SECTION FLEX */
+.section-1{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* DEBUG RULES */
 .debug .logo, .debug .login{
@@ -40,8 +59,12 @@ header{
   background-color: orange;
   flex-grow: 2;
 }
- 
-
 .debug .navbar{
   background-color: orange;
+}
+
+.debug .container{
+  height: 200px;
+  width: 400px;
+  background-color: rgb(252, 5, 149);
 }
