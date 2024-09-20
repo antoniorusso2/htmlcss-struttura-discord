@@ -103,6 +103,9 @@ section{
   background-color: lightgrey;
 }
 
+.debug .layout-3 .pink{
+  order: 1;
+}
 .debug .layout-3{
   height: 250px;
   width: 650px;
@@ -137,5 +140,5 @@ section{
 .debug .one-six{
   background-color: aquamarine;
   width: calc(100%/6);
-  border: 1px solid white;
+  border: 1px solid gre;
 }
