@@ -46,15 +46,21 @@ header{
 /* SECTION FLEX & RULES*/
 section{
   padding: 20px 0;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 /* ROWs FLEXBOX */
 .row{
   display: flex;
   justify-content: center;
+  align-content: center;
+  min-height: 100%;
+}
+.row-ftr{
+  display: flex;
+  justify-content: space-between;
   align-content: center;
   min-height: 100%;
 }
@@ -141,4 +147,12 @@ section{
   background-color: aquamarine;
   width: calc(100%/6);
   border: 1px solid gre;
+}
+
+.debug .container.ftr{
+  width: 650px;
+} 
+.debug .row.ftr{
+  background-color: aquamarine;
+  justify-content: space-between;
 }
