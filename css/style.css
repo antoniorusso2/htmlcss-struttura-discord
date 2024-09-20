@@ -1,5 +1,47 @@
+/* RESET RULES */
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+ul, li{
+  list-style: none;
+}
+
+/* NAV HEADER */
+
+header{
+  padding: 10px 150px;
+  background-color: rgba(8, 184, 228, 0.253);
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+/* DEBUG RULES */
+.debug .logo, .debug .login{
+  border: 1px dashed black ;
+  flex-grow: 1;
+}
+.debug .menu{
+  border: 1px dashed black ;
+  background-color: orange;
+  flex-grow: 2;
+}
+ 
+
+.debug .navbar{
+  background-color: orange;
 }
