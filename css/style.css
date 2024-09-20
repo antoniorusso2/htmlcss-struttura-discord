@@ -40,7 +40,8 @@ header{
 }
 
 .login{
-  padding-left: auto;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* SECTION FLEX & RULES*/
@@ -150,7 +151,7 @@ section{
 .debug .one-six{
   background-color: aquamarine;
   width: calc(100%/6);
-  border: 1px solid gre;
+  border: 1px solid grey;
 }
 
 .debug .container.ftr{
@@ -159,8 +160,9 @@ section{
 .debug .row.ftr{
   background-color: aquamarine;
   justify-content: space-between;
+  padding: 10px 0;
 }
- .footer-layout.debug{
+.footer-layout.debug{
   background-color: black;
   border-top: 1px solid lightgrey;
- }
+}
