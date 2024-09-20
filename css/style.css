@@ -41,12 +41,24 @@ header{
   gap: 10px;
 }
 
+.login{
+  padding-left: auto;
+}
+
 /* 1st SECTION FLEX */
-.section-1{
-  padding: 10px 0;
+.section-1, .section-2{
+  padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* ROWs FLEXBOX */
+.row{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 100%;
 }
 
 /* DEBUG RULES */
@@ -63,8 +75,24 @@ header{
   background-color: orange;
 }
 
-.debug .container{
+.debug .layout-1{
   height: 200px;
-  width: 400px;
+  width: 450px;
   background-color: rgb(252, 5, 149);
+}
+
+.debug .layout-2{
+  height: 250px;
+  width: 650px;
+  background-color: rgb(219, 13, 13);
+  border: 1px solid black;
+}
+
+.debug .layout-2 .blue{
+  background-color: blue;
+  flex-grow: 2;
+}
+.debug .pink{
+  background-color: pink;
+  flex-grow: 1;
 }
