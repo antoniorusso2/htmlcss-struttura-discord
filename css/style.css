@@ -109,6 +109,10 @@ section{
   background-color: lightgrey;
 }
 
+.section-6.debug{
+  background-color: black;
+}
+
 .debug .layout-3 .pink{
   order: 1;
 }
@@ -156,3 +160,7 @@ section{
   background-color: aquamarine;
   justify-content: space-between;
 }
+ .footer-layout.debug{
+  background-color: black;
+  border-top: 1px solid lightgrey;
+ }
